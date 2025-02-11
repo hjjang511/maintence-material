@@ -22,8 +22,8 @@ Bộ dữ liệu AI4I có các cột thông tin như sau:
                               o	Lỗi môi trường (Random Failures)
 
 Bộ dữ liệu này có thể được dùng để xây dựng các mô hình AI và phân tích dữ liệu, nhằm dự đoán lỗi hoặc tối ưu hóa hiệu suất của máy móc. Các cột Rotational Speed, Torque, và Tool Wear có thể đóng vai trò quan trọng trong việc phân tích sự hao mòn của máy móc và dự đoán thời điểm bảo trì cần thiết. Các cột Air Temperature và Process Temperature giúp đánh giá sự ảnh hưởng của nhiệt độ đến hiệu suất hoạt động và tuổi thọ của thiết bị.
-3.	Bộ dữ liệu material
 
+2.	Bộ dữ liệu material
 Bộ dữ liệu gồm 2 bảng: material.csv và Data.csv, gồm 15 đặc trưng mô tả các đặc điểm kĩ thuật của vật liệu và 1 nhãn. 
     Dưới đây là tổng quan về các đặc trưng:
     
