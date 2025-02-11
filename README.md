@@ -5,9 +5,7 @@ Bộ dữ liệu AI4I (AI for Industry 4.0) là một tập dữ liệu được
 Bộ dữ liệu AI4I có các cột thông tin như sau:
                 
                 •	UDI (Unique Device Identifier): Mã định danh duy nhất của thiết bị, giúp nhận diện từng mẫu dữ liệu một cách riêng biệt.
-                
                 •	Product ID: Mã sản phẩm được sản xuất, có thể liên quan đến loại sản phẩm hoặc lô sản phẩm cụ thể.
-               
                 •	Type: Loại sản phẩm hoặc danh mục của sản phẩm, phân biệt các dòng sản phẩm khác nhau trong quá trình sản xuất.
                 •	Air Temperature [K]: Nhiệt độ không khí xung quanh máy móc trong quá trình sản xuất, tính bằng độ Kelvin (K).
                 •	Process Temperature [K]: Nhiệt độ tại điểm hoạt động của quá trình sản xuất, tính bằng độ Kelvin (K). Thường cao hơn nhiệt độ không khí do phát sinh nhiệt từ hoạt động máy móc.
@@ -22,10 +20,13 @@ Bộ dữ liệu AI4I có các cột thông tin như sau:
                               o	Lỗi công cụ (Power Failure)
                               o	Lỗi bôi trơn (Overstrain Failure)
                               o	Lỗi môi trường (Random Failures)
+
 Bộ dữ liệu này có thể được dùng để xây dựng các mô hình AI và phân tích dữ liệu, nhằm dự đoán lỗi hoặc tối ưu hóa hiệu suất của máy móc. Các cột Rotational Speed, Torque, và Tool Wear có thể đóng vai trò quan trọng trong việc phân tích sự hao mòn của máy móc và dự đoán thời điểm bảo trì cần thiết. Các cột Air Temperature và Process Temperature giúp đánh giá sự ảnh hưởng của nhiệt độ đến hiệu suất hoạt động và tuổi thọ của thiết bị.
 3.	Bộ dữ liệu material
+
 Bộ dữ liệu gồm 2 bảng: material.csv và Data.csv, gồm 15 đặc trưng mô tả các đặc điểm kĩ thuật của vật liệu và 1 nhãn. 
     Dưới đây là tổng quan về các đặc trưng:
+    
           •	Std: Tiêu chuẩn vật liệu hoặc mã định danh tiêu chuẩn (Standard).
           •	ID: Mã định danh duy nhất của vật liệu.
           •	Material: Loại vật liệu.
