@@ -1,8 +1,13 @@
 1.	Bộ dữ liệu maintance
+
 Bộ dữ liệu AI4I (AI for Industry 4.0) là một tập dữ liệu được xây dựng với mục tiêu hỗ trợ việc nghiên cứu và phát triển các giải pháp trí tuệ nhân tạo (AI) trong lĩnh vực công nghiệp, đặc biệt là công nghiệp sản xuất thông minh. Bộ dữ liệu này chứa các thông tin liên quan đến các quá trình sản xuất và hoạt động của máy móc trong môi trường sản xuất công nghiệp, bao gồm các chỉ số về trạng thái hoạt động, hiệu suất, và các yếu tố gây lỗi của thiết bị.
+
 Bộ dữ liệu AI4I có các cột thông tin như sau:
+                
                 •	UDI (Unique Device Identifier): Mã định danh duy nhất của thiết bị, giúp nhận diện từng mẫu dữ liệu một cách riêng biệt.
+                
                 •	Product ID: Mã sản phẩm được sản xuất, có thể liên quan đến loại sản phẩm hoặc lô sản phẩm cụ thể.
+               
                 •	Type: Loại sản phẩm hoặc danh mục của sản phẩm, phân biệt các dòng sản phẩm khác nhau trong quá trình sản xuất.
                 •	Air Temperature [K]: Nhiệt độ không khí xung quanh máy móc trong quá trình sản xuất, tính bằng độ Kelvin (K).
                 •	Process Temperature [K]: Nhiệt độ tại điểm hoạt động của quá trình sản xuất, tính bằng độ Kelvin (K). Thường cao hơn nhiệt độ không khí do phát sinh nhiệt từ hoạt động máy móc.
